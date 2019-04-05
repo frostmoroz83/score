@@ -1,0 +1,47 @@
+@import "vars";
+
+//без bootstap медиа запросы
+// Экстрамалые девайсы («телефоны», < 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Малые девайсы («ландшафтные», < 768px)
+@media (max-width: 767.98px) {
+  
+}
+
+// Средние девайсы («таблетки», < 992px) 
+@media (max-width: 991.98px) {
+  
+}
+
+// Большие девайсы (большие десктопы, < 1200px)
+@media (max-width: 1199.98px) {
+  
+}
+
+/*==========  Bootstrap ==========*/
+/*
+// Экстрамалые девайсы («телефоны», < 576px)
+@include media-breakpoint-down(xs) {
+
+}
+
+// Малые девайсы («ландшафтные», < 768px)
+@include media-breakpoint-down(sm) {
+  
+}
+
+// Средние девайсы («таблетки», < 992px)
+@include media-breakpoint-down(md) {
+  
+}
+
+// Большие девайсы (большие десктопы, < 1200px)
+@include media-breakpoint-down(lg) {
+
+}
+*/
+
+

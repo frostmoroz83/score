@@ -1,0 +1,9 @@
+//экспорт миксина на иморт шрифтов
+@import "_mixins/font-face";
+
+
+
+//example пирмер
+@include font-face("montserrat", "../fonts/MontserratBlack/MontserratBlack", 900);
+@include font-face("montserrat", "../fonts/MontserratBold/MontserratBold", bold);
+@include font-face("montserrat", "../fonts/MontserratRegular/MontserratRegular");
