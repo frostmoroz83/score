@@ -4,6 +4,6 @@
 
 
 //example пирмер
-@include font-face("montserrat", "../fonts/MontserratBlack/MontserratBlack", 900);
-@include font-face("montserrat", "../fonts/MontserratBold/MontserratBold", bold);
-@include font-face("montserrat", "../fonts/MontserratRegular/MontserratRegular");
+// @include font-face("raleway", "../fonts/RalewayRegular/MontserratBlack", 900);
+@include font-face("raleway", "../fonts/RalewayBold/RalewayBold", bold);
+@include font-face("raleway", "../fonts/RalewayRegular/RalewayRegular");

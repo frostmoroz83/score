@@ -55,12 +55,13 @@ var gulp = require('gulp'),  // подключаем Gulp
     sass = require('gulp-sass'), // модуль для компиляции SASS (SCSS) в CSS
     autoprefixer = require('gulp-autoprefixer'), // модуль для автоматической установки автопрефиксов
     cleanCSS = require('gulp-clean-css'), // плагин для минимизации CSS
-    uglify = require('gulp-uglify'), // модуль для минимизации JavaScript
+    uglify = require('gulp-uglifyes'), // модуль для минимизации JavaScript
     cache = require('gulp-cache'), // модуль для кэширования
     imagemin = require('gulp-imagemin'), // плагин для сжатия PNG, JPEG, GIF и SVG изображений
     jpegrecompress = require('imagemin-jpeg-recompress'), // плагин для сжатия jpeg	
     pngquant = require('imagemin-pngquant'), // плагин для сжатия png
     rimraf = require('gulp-rimraf'), // плагин для удаления файлов и каталогов
+    babel = require('gulp-babel'),
     rename = require('gulp-rename');
 
 /* задачи */
