@@ -1,0 +1,9 @@
+//экспорт миксина на иморт шрифтов
+@import "_mixins/font-face";
+
+
+
+//example пирмер
+// @include font-face("raleway", "../fonts/RalewayRegular/MontserratBlack", 900);
+@include font-face("raleway", "../fonts/RalewayBold/RalewayBold", bold);
+@include font-face("raleway", "../fonts/RalewayRegular/RalewayRegular");
