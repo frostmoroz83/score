@@ -1,0 +1,13 @@
+<script>
+  let productItem = document.querySelectorAll('.product_item'),
+      productFooter = document.querySelectorAll('.product_item_footer');
+
+    for (let i = 0; i < productItem.length; i++) {
+      productItem[i].onmouseover = function () {
+        productFooter[i].style.display = 'block';
+      };
+      productItem[i].onmouseout = function () {
+        productFooter[i].style.display = 'none';
+      };
+    }
+</script>
